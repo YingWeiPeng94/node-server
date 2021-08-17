@@ -1,0 +1,28 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "基于node编写的服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YingWeiPeng94/node-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YingWeiPeng94/node-server/issues"
+  },
+  "homepage": "https://github.com/YingWeiPeng94/node-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

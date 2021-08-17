@@ -1,0 +1,16 @@
+{
+    "verbose": true,
+    "ignore": [
+        "node_modules",
+        "*.json",
+        "*.md"
+    ],
+    "watch": [
+        "*.js",
+        "src"
+    ],
+    "env": {
+        "NODE_ENV": "development",
+        "PORT": "3000"
+    }
+}
